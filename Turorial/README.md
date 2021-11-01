@@ -1,5 +1,6 @@
 # MyDocker 課程內容 : 
 Docker built up Tutorial and Implementation
+ [一定要學的Docker 10大指令 快速入門教學介紹](https://www.youtube.com/watch?v=sxuynZ3wIa8)
 
 ## Part1 : Docker 是甚麼?
 
