@@ -11,5 +11,5 @@ The error when I trying to install in windows
         - Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All 
         - 確認Linux的Windows子系统 和 Hyper-V 有被勾選(windows功能)
 
-- 2.Docker Desktop failed to start
-    - 
+- 2.Docker Desktop failed to start : 
+    - a.確保下載版本為Docker 4.5 Up
