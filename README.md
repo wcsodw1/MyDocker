@@ -14,3 +14,4 @@ The error when I trying to install in windows
     - a.確保下載版本為Docker 4.5 Up
     - b.將wsl2 設置為default version -> $wsl --set-default-version 2
     - c.Restart Your Computer
+    and it work for me.
