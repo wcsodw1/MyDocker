@@ -1,12 +1,17 @@
 # MyDocker
-Docker built up Tutorial and Implementation
+Docker built up Project and Implementation
 
-## 1.The error when I trying to install in windows
+# 1.What is Docker ?
+Docker is a subset of project, is a software framework for building, running, and managing containers on servers and the cloud.
+ ![image](data/img/container.png)
+
+
+## 2.Install : The Error when I trying to install in Windows
 
 - A.WSL 2 installation is incomplete
-    - solution1 : (就是你的Linux核心版本偏低了，該更新了。)
+    - step1 : (就是你的Linux核心版本偏低了，該更新了。)
         - Install WSL: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
-    - Sol2 : 
+    - step2 : 
         - Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All 
         - 確認Linux的Windows子系统 和 Hyper-V 有被勾選(windows功能 )
 
@@ -16,7 +21,7 @@ Docker built up Tutorial and Implementation
     - c.Restart Your Computer
     and it work for me.
 
-## 2.Concept : 
+## 3.Concept : 
     - Image are read-only : If you wanna change something, you need to rebuilt the image($docker build .)  
     - Layers Base : Every command in the Dockerfile represent a layer
         - 實際的使用案例如檔案B_Image_Layer 當中Dockerfile針對layer進行優化(將COPY package.json提到npm install 前, 後續再COPY所有,  因此當重新docker build . 中 npm 掃到json檔發現內容無更動時, 就會省略duplicate, 因此整個運算效率就會大幅加快)
