@@ -8,7 +8,7 @@ Docker built up Tutorial and Implementation
         - Install WSL: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
     - Sol2 : 
         - Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All 
-        - 確認Linux的Windows子系统 和 Hyper-V 有被勾選(windows功能)
+        - 確認Linux的Windows子系统 和 Hyper-V 有被勾選(windows功能 )
 
 - B.Docker Desktop failed to start : 
     - a.確保下載版本為Docker 4.5 Up
