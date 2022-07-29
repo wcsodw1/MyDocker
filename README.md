@@ -2,10 +2,16 @@
 Docker built up Project and Implementation
 
 ## 1.What is Docker ?
-- Docker is a subset of project, is a software framework for building, running, and managing containers on servers and the cloud.<br>
+- A.Docker : 
+    - Docker is a subset of project, is a software framework for building, running, and managing containers on servers and the cloud.<br>
  ![image](data/img/container.png)
-- Tool and building block :<br>
- ![image](data/img/Docker_Tool.png)
+
+- B.Core concept of Docker : Image & Containers :
+ ![image](data/img/image_container.png)
+
+
+- C.Tool and building block :<br>
+    - ![image](data/img/Docker_Tool.png)
 
 
 ## 2.Install : The Error when I trying to install in Windows
