@@ -67,4 +67,4 @@ Docker built up Project and Implementation
         - $docker --help  
 
     - Attach Docker Container :
-        -     - ![image](data/img/AttachRunningContainer.png)
+        - ![image](data/img/AttachRunningContainer.png)
