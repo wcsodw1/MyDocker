@@ -42,6 +42,10 @@ Docker built up Project and Implementation
     ### Make sure docker set up is complete : 
         - sudo docker run hello-world
 
+    ### Find "Docker ID" by Conatainer name : 
+    - In Linux:  sudo docker ps -aqf "name=gracious_hoover" # gracious_hoover = Conatainer name
+    - In OS X, Windows : docker ps -aqf "name=containername"
+
     ### image :
         - Docker Build image : 
             - $docker build . #(!) rebuild image use the same command
