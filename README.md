@@ -35,11 +35,12 @@ Docker built up Project and Implementation
         - 實際的使用案例如檔案B_Image_Layer 當中Dockerfile針對layer進行優化(將COPY package.json提到npm install 前, 後續再COPY所有,  因此當重新docker build . 中 npm 掃到json檔發現內容無更動時, 就會省略duplicate, 因此整個運算效率就會大幅加快)
 
 ## 4.Docker Desktop : 
-    - 1.
-    - 2.
+    - 1.docker run -d -p 80:80 docker/getting-started
     [Tutorial Reference](https://www.youtube.com/watch?v=2ezNqqaSjq8)
 
 ## 5.Command that I used during the process:
+    ### Make sure docker set up is complete : 
+        - sudo docker run hello-world
 
     ### image :
         - Docker Build image : 
